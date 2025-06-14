@@ -1,0 +1,52 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Byte-code files
+__pycache__/
+*.pyc
+
+# Distribution and build artifacts
+dist/
+build/
+*.egg-info/
+*.whl
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*.bak
+
+# Environment variables
+.env
+.flaskenv
+
+# IDE / Editor specific files
+.DS_Store
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+/tmp/
+
+# Data files (often generated, sensitive, or too large for version control)
+*.pkl
+*.pickle
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.sqlite3
+*.db
